@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+    Tudo que em HTML é id = em CSS é #
+    Tudo que em HTML é class em CSS é .
+*/
+
+body{
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1{
+    color: blueviolet;
+    font-size: 3em;
+}
+/*
+Seletor personalizado.
+*/
+#principal{
+    color: rgb(94, 89, 84);
+    background-color: aliceblue;
+}
+
+h2{
+    color: brown;
+}
+.basico {
+    color: rgb(90, 128, 0);
+    font-size: 2em;
+}
+.intermediario{
+    color: rgb(255, 174, 0);
+    font-size: 2em;
+}
+.avancado{
+    color: rgb(255, 72, 0);
+    font-size: 2em;
+}

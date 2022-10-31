@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags Semânticas</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: slategrey;
+            margin: auto;
+            
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px rgb(61, 70, 78);
+        }
+        header > h1{
+            text-align: center;
+            font-weight: bolder;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 1px rgb(61, 70, 78);
+            border-radius: 5px;
+        }
+        nav{
+            background-color: lightblue;
+            padding: 3px;
+            width: 300px;
+            box-shadow: 1px 1px 1px lightslategray;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white ;
+            font-weight: bold;
+    
+        }
+        article{
+            padding: 5px;
+            text-align: justify;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            
+        }
+        
+        
+        footer{
+            background-color: blueviolet;
+            color: antiquewhite;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            margin-right: 6px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px rgb(61, 70, 78);
+
+        }
+        footer >p {
+            margin: opx;
+        }
+    
+    </style>
+</head>
+<body>
+
+    <!--<div></div> box level-->
+    <!--<span></span> box level-->  
+    
+    <header>
+        <h1>Estrondo Notícias</h1>
+        <nav>
+            <a href="">HOME</a>
+            <a href="">COLABORADORES</a>
+            <a href="">SOBRE</a>
+            <a href="">lOGIN</a>   
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="Assuntos">
+            <nav>
+                <a href="">Esportes</a>
+                <a href="">Política</a>
+                <a href="">Tecnologia</a>
+                
+            </nav>
+        </section>
+
+        <section id="noticias">
+            
+            <article>
+                <h2>Head da Notícia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nemo libero quia dolorum dolor modi quibusdam distinctio? Temporibus laboriosam doloribus deserunt et eos quam earum. Labore, praesentium! Impedit, repellendus voluptates!</p>
+                <aside>
+                    <p>Artigo Escrito por <a href="">José da Silva</a></p>
+                </aside>
+            </article>
+            <article>
+                <h2>Head da Notícia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nemo libero quia dolorum dolor modi quibusdam distinctio? Temporibus laboriosam doloribus deserunt et eos quam earum. Labore, praesentium! Impedit, repellendus voluptates!</p>
+                <aside>
+                    <p>Artigo Escrito por <a href="">José da Silva</a></p>
+                </aside>
+            </article>
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Ezequias</p>  
+
+    </footer>
+    
+</body>
+</html>
