@@ -1,2 +1,6 @@
 @charset "UTF-8";
 /*Aparelho em Pé(portrait)*/
+
+body{
+    background-color: yellow;
+}
